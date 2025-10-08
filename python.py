@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from google import genai
-from google.generativeai as genai
+from google.genai.errors import APIError
 import os
 
 # --- Cấu hình Trang Streamlit ---
